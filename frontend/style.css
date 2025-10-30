@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+body{
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+header{
+    background: #2c5030;
+    color: #fff;
+    display: flex;
+    padding: 20px;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+#div{
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+    height: auto;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead{
+    background: #202922;
+    color:#fff;
+}
+
+thead tr th{
+    padding: 10px;
+}
+
+
+.tabela{
+    width: 90%;
+    max-width: 1000px;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.busca{
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-left: 30px;
+}
+
+tbody td{
+    padding: 12px 14px;
+    font-size: 15px;
+}
+
+#quadro {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#btCadastrar{
+  background-color: #1b4332;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#btCadastrar:hover {
+  background-color: #676c6a;
+}
+
+#search{
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+
+header {
+    display: flex;
+    font-size: 10px;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: #234f2d;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 2.5em;
+}
+
+.section {
+    margin-bottom: 20px;
+    width: 90%;
+    max-width: 1000px;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+h2 {
+    color: #000000;
+    font-size: 1.8em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #ecf0f1;
+    border-radius: 4px;
+    font-size: 1.2em;
+}
+
+.total-consultas {
+    font-size: 2em;
+    font-weight: bold;
+    color: #27ae60;
+}
+
+
+.page {
+    text-decoration: none;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+}
